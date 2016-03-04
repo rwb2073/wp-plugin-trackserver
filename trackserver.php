@@ -2321,12 +2321,12 @@ EOF;
 									<?php wp_nonce_field( 'manage_track' ); ?>
 									<tr>
 										<th style="width: 150px;"><?php esc_html_e( 'Merged track name', 'trackserver' ); ?></th>
-										<td><input id="input-merged-name" name="name" type="text" style="width: 400px" /></td>
+										<td><input id="input-merged-name" name="name" type="text" style="width: 200px" /></td>
 									</tr>
 								</table>
 								<br />
 								<span class="aligncenter"><i><?php esc_html_e( 'Warning: this action cannot be undone!', 'trackserver' ); ?></i></span><br />
-								<div class="alignright">
+								<div class="alignleft">
 									<input class="button action" type="button" value="<?php esc_attr_e( 'Save', 'trackserver' ); ?>" id="merge-submit-button">
 									<input class="button action" type="button" value="<?php esc_attr_e( 'Cancel', 'trackserver' ); ?>" onClick="tb_remove(); return false;">
 								</div>
