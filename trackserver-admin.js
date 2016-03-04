@@ -18,7 +18,7 @@ var tb_click = function(e)
     }
     if (ts_action == 'view') {
 
-        tb_window_width = 800;
+        tb_window_width = 600;
         tb_window_height = 600;
 
         // track_base_url should come from WP via wp_localize_script()
@@ -166,7 +166,7 @@ var TrackserverAdmin = (function () {
                     }
                 });
                 jQuery('#input-merged-name').val(merged_name + ' (merged)');
-                ts_tb_show('ts-merge-modal', 'Merge tracks', 600, 250);
+                ts_tb_show('ts-merge-modal', 'Merge tracks', 300, 250);
                 return false;
             }
             if (action == 'recalc') {
